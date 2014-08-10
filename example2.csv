@@ -1,0 +1,199 @@
+id,dam,lake,stream,capacity,elevation,river_basin,county,hydrologic_area,nearby_city,latitude,longitude,operator
+APN,Alpine,Alpine Lake,Lagunitas Creek,8900,654' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,STINSON BEACH,37.94,-122.637,Marin Municipal Water District
+ANT,Antelope,Antelope,Indian Creek,22600,4960' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,SUSANVILLE,40.18,-120.607,CA Dept of Water Resources/O & M
+AST,Austrian,Lake Austrian,Los Gatos Creek,6200,1125' ft,LOS GATOS CR (NEAR SAN JOSE),SANTA CLARA,SAN FRANCISCO BAY,SAN JOSE,37.132,-121.93,San Jose Water Company
+BRT,Barrett,Barrett Lake,Cottonwood Creek,37947,1607' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,CHULA VISTA,32.678,-116.669,San Diego County
+BRV,Bear Valley,Big Bear Lake,Bear Creek,73000,6743' ft,SANTA ANA R,SAN BERNARDINO,SOUTH COAST,SAN BERNARDINO,34.242,-116.978,Big Bear Municipal Water District
+BRD,Beardsley,Beardsley Lake,M Fork Stanislaus River,97800,3398' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,STRAWBERRY,38.203,-120.075,US Bureau of Reclamation
+BTH,Bethany Forebay,Bethany Forebay,Delta,4900,250' ft,DELTA,ALAMEDA,SACRAMENTO RIVER,BYRON,37.785,-121.617,CA Dept of Water Resources
+BLB,Black Butte Rereg,Black Butte,Stony Creek,136200,426' ft,STONY CR,TEHAMA,SACRAMENTO RIVER,ORLAND,39.808,-122.329,US Army Corps of Engineers
+BOC,Boca,Boca Reservoir,Little Truckee River,41100,5521' ft,TRUCKEE R,NEVADA,NORTH LAHONTAN,TRUCKEE,39.383,-120.1,US Bureau of Reclamation
+BMP,Bon Tempe,Bon Tempe Reservoir,Lagunitas Creek,4017,723' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,SAN RAFAEL,37.957,-122.61,Marin Municipal Water District
+BQC,Bouquet Canyon,Bouquet Reservoir,Bouquet Creek,33767,3008' ft,U SANTA CLARA R,LOS ANGELES,SOUTH COAST,LANCASTER,34.54,-118.5,Los Angeles County
+BWN,Bowman,Bowman Lake,Canyon Creek,68500,5566' ft,YUBA R,NEVADA,SACRAMENTO RIVER,GRANITEVILLE,39.45,-120.652,Nevada County
+BWS,Bowman Spaulding Diversion,Lake Spaulding System,none,144591,5390' ft,YUBA R,NEVADA,SACRAMENTO RIVER,TRUCKEE,39.441,-120.658,Pacific Gas & Electric
+BDP,Bridgeport,Bridgeport Reservoir,E Fork Walker River,42600,6466' ft,WALKER R,MONO,NORTH LAHONTAN,BRIDGEPORT,38.325,-119.211,USGS and DWR
+BIO,Briones,Briones Lake,Bear Creek,60500,588' ft,EAST BAY,CONTRA COSTA,SAN FRANCISCO BAY,PLEASANT HILL,37.9,-122.2,East Bay Municipal Utility District
+BUC,Buchanan,Eastman Lake,Chowchilla River,150000,450' ft,CHOWCHILLA R,MADERA,SAN JOAQUIN RIVER,RAYMOND,37.213,-119.97,US Army Corps of Engineers
+BCL,Bucks,Bucks Lake,Bucks Creek,105600,5168' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,QUINCY,39.897,-121.202,Pacific Gas & Electric
+BTV,Butt Valley,Butt Valley Reservoir,Butt Creek,49900,4144' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,SENECA,40.187,-121.186,Pacific Gas & Electric
+CCH,Cachuma,Cachuma Lake,Santa Ynez,190500,781' ft,SANTA YNEZ R,SANTA BARBARA,CENTRAL COAST,SANTA YNEZ,34.583,-119.98,US Bureau of Reclamation
+CVE,Calaveras,Calaveras Reservoir,Calaveras Creek,96900,775' ft,ALAMEDA CR,ALAMEDA,SAN FRANCISCO BAY,MILPITAS,37.492,-121.818,San Francisco County
+CMN,Camanche,Camanche Reservoir,Mokelumne River,417120,236' ft,MOKELUMNE R,SAN JOAQUIN,SAN JOAQUIN RIVER,CLEMENTS,38.225,-121.021,East Bay Municipal Utility District
+CFW,Camp Far West,Camp Far West,Bear River,104000,260' ft,BEAR R,YUBA,SACRAMENTO RIVER,MARYSVILLE,39.05,-121.317,CA Dept of Water Resources
+ALM,Canyon,Lake Almanor,N Fork Feather River,1143000,4600' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,CHESTER,40.218,-121.173,Pacific Gas & Electric
+CPL,Caples,Caples Lake,Silver Fork American River,21600,7800' ft,AMERICAN R,ALPINE,SACRAMENTO RIVER,KIRKWOOD,38.707,-120.048,El Dorado Irrigation District
+CSI,Casitas,Lake Casitas,Casitas Creek,254000,335' ft,VENTURA R,VENTURA,SOUTH COAST,CASITAS SPRINGS,34.373,-119.332,US Bureau of Reclamation
+CAS,Castaic,Castaic Lake,Castaic Creek,325000,1535' ft,SANTA CLARA R,LOS ANGELES,SOUTH COAST,CASTAIC,34.5152,-118.6101,CA Dept of Water Resources
+SLW,Cedar Springs,Lake Silverwood,Mojave River,73000,3331' ft,MOJAVE R,SAN BERNARDINO,SOUTH LAHONTAN,SAN BERNARDINO,34.304,-117.318,CA Dept of Water Resources
+CHB,Chabot,Lake Chabot,San Leandro Creek,10400,250' ft,ALAMEDA CR,ALAMEDA,SAN FRANCISCO BAY,SAN  LEANDRO,37.73,-122.122,East Bay Municipal Utility District
+CHV,Cherry Valley,Cherry Lake,Cherry Creek,268000,4765' ft,TUOLUMNE R,TUOLUMNE,SAN JOAQUIN RIVER,BUCK MEADOWS,37.967,-119.917,Hetch Hetchy Water and Power
+CHY,Cherry Valley,Cherry Lake,Cherry Creek,268000,4715' ft,TUOLUMNE R,TUOLUMNE,SAN JOAQUIN RIVER,HETCH HETCHY,37.976,-119.913,Hetch Hetchy Water and Power
+JNN,Chet Harrit,Lake Jennings,Quail Canyon Creek,9800,707' ft,UPPER SALINAS R,SAN DIEGO,none specified,EL CAJON,32.854,-116.892,None Specified
+CLK,Clear Lake,Clear Lake,Lost Creek,526800,4552' ft,KLAMATH R,MODOC,NORTH COAST,TULELAKE,41.927,-121.075,US Bureau of Reclamation
+CLA,Clear Lake Imp,Clear Lake,Cache Creek,313000,1336' ft,CACHE CR,LAKE,SACRAMENTO RIVER,CLEAR LAKE,38.957,-122.642,Yolo County Flood Control and Water Consv Dist
+CGS,Cogswell,Cogswell Reservoir,W Fork San Gabriel River,9000,2405' ft,SAN GABRIEL R,LOS ANGELES,SOUTH COAST,MONROVIA,34.245,-117.965,Los Angeles County
+CMB,Combie,Lake Combie,Bear River,5555,1610' ft,BEAR R,NEVADA,SACRAMENTO RIVER,GRASS VALLEY,39.017,-121.05,Nevada County
+CTG,Courtright,Helms Creek,Helms Creek,123200,8192' ft,KINGS R,FRESNO,TULARE LAKE,SHAVER LAKE,37.072,-118.967,Pacific Gas & Electric
+CYC,Coyote Percolation,Coyote Reservoir,Coyote Creek,22300,755' ft,SANTA CLARA VLY,SANTA CLARA,SAN FRANCISCO BAY,SAN MARTIN,37.118,-121.549,Santa Clara Valley Water District
+COY,Coyote Valley,Lake Mendocino,Russian River,122400,720' ft,RUSSIAN R,MENDOCINO,NORTH COAST,UKIAH,39.197,-123.186,US Army Corps of Engineers
+MNC,Coyote Valley,Lake Mendocino,Russian River,122400,760' ft,RUSSIAN R,MENDOCINO,NORTH COAST,UKIAH,39.199,-123.182,US Army Corps of Engineers
+CNV,Crane Valley Storage,Crane Valley Lake,N Fork San Joaquin River,45400,3380' ft,SAN JOAQUIN R,MADERA,SAN JOAQUIN RIVER,OAKHURST,37.283,-119.517,Pacific Gas & Electric
+CUY,Cuyamaca,Cuyamaca Lake,Boulder Creek,12200,4641' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,SANTA YSABEL,32.99,-116.587,National Weather Service
+MHV,Davis,Lake Mohave,Colorado River,1810000,644' ft,COLORADO R,State of Nevada,COLORADO RIVER,"LAUGHLIN, NV",35.197,-114.567,US Bureau of Reclamation
+DLV,Del Valle,Lake Del Valle,Arroyo Valle,77100,703' ft,ALAMEDA CR,ALAMEDA,SAN FRANCISCO BAY,LIVERMORE,37.614,-121.745,CA Dept of Water Resources
+DMV,Diamond Valley,Diamond Valley Lake,Domenigoni Valley Creek,800000,1756' ft,SANTA MARGARITA R,RIVERSIDE,SOUTH COAST,WINCHESTER,33.67,-117.066,Metropolitan Water District
+DNP,Don Pedro,New Don Pedro Reservoir,Tuolumne River,2030000,830' ft,TUOLUMNE R,TUOLUMNE,SAN JOAQUIN RIVER,LA GRANGE,37.702,-120.421,Turlock Irrigation District
+DON,Donnells,Donnells Reservoir,M Fork Stanislaus,64300,4835' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,PINECREST,38.329,-119.96,US Bureau of Reclamation
+DNN,Donner,Donner Lake,Truckee River,9700,5945' ft,TRUCKEE R,NEVADA,NORTH LAHONTAN,TRUCKEE,39.333,-120.25,US Geological Survey
+DNL,Donner,Donner Lake,Truckee River,9700,5938' ft,TRUCKEE R,NEVADA,NORTH LAHONTAN,TRUCKEE,39.324,-120.233,Sierra County
+DWN,Dwinnell,Dwinnell,Shasta River,50000,2792' ft,SHASTA R,SISKIYOU,NORTH COAST,GAZELLE,41.541,-122.376,US Bureau of Reclamation
+EPK,East Park,East Park Reservoir,Stony Creek,50900,1205' ft,STONY CR,COLUSA,SACRAMENTO RIVER,STONEYFORD,39.367,-122.517,US Bureau of Reclamation
+ELC,El Capitan,El Capitan,San Diego River,112807,600' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,EL CAJON,32.882,-116.808,San Diego County
+ENR,Eleanor,Lake Eleanor,Tuolumne River,26100,4660' ft,TUOLUMNE R,TUOLUMNE,SAN JOAQUIN RIVER,HETCH HETCHY,37.974,-119.88,Hetch Hetchy Water and Power
+ENG,Englebright Narrows,Englebright Lake,Yuba River,70000,551' ft,YUBA R,NEVADA,SACRAMENTO RIVER,MARYSVILLE,39.239,-121.267,US Army Corps of Engineers
+FRM,Farmington,,Littlejohn Creek,52000,180' ft,LITTLEJOHN CR,SAN JOAQUIN,SAN JOAQUIN RIVER,FARMINGTON,37.915,-120.935,US Army Corps of Engineers
+FLR,Florence,Florence Lake,S Fork San Joaquin River,64600,7325' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,BIG CREEK,37.267,-118.967,"Southern California Edison Company, Big Creek"
+FOL,Folsom,Folsom Lake,American River,977000,466' ft,AMERICAN R,SACRAMENTO,SACRAMENTO RIVER,FOLSOM,38.683,-121.183,US Bureau of Reclamation
+FRL,French Lake,French Lake,Canyon Creek,13800,6664' ft,YUBA R,NEVADA,SACRAMENTO RIVER,SIERRA CITY,39.44,-120.544,Nevada County
+FMD,French Meadows,French Meadows Reservoir,M Fork American,136400,5263' ft,AMERICAN R,PLACER,SACRAMENTO RIVER,FORESTHILL,39.112,-120.468,Placer County Water Agency
+FRD,Frenchman,Frenchman Lake,Little Last Chance Creek,55477,5517' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,BECKWOURTH,39.883,-120.183,CA Dept of Water Resources/O & M
+MIL,Friant,Millerton Lake,San Joaquin River,520500,581' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,FRIANT,37.001,-119.705,US Bureau of Reclamation
+GLK,Gem Lake,Gem Lake,Rush Creek,17200,9054' ft,MONO LAKE,MONO,SOUTH LAHONTAN,JUNE LAKE,37.752,-119.14,"Southern California Edison Company, Big Creek"
+GBR,Gerber,Gerber Lake,Klamath River,94300,ft,KLAMATH R,SISKIYOU,NORTH COAST,KLAMATH FALLS,42.205,-121.13,US Bureau of Reclamation
+GBL,Gibraltar,Gibraltar Lake,Santa Ynez River,8200,1399' ft,SANTA YNEZ R,SANTA BARBARA,CENTRAL COAST,SANTA BARBARA,34.526,-119.686,City of Santa Barbara
+PWL,Glen Canyon,Lake Powell,Colorado River,24322000,3700' ft,COLORADO R,State of Arizona,COLORADO RIVER,"PAGE, AZ",36.937,-111.493,US Bureau of Reclamation
+GNT,Grant Lake,Grant Lake,Rush Creek,47600,7140' ft,MONO LAKE,MONO,SOUTH LAHONTAN,JUNE LAKE,37.862,-119.102,City of Los Angeles; Dept of Water and Power
+DAV,Grizzly Valley,Lake Davis,Big Grizzly Creek,84400,5768' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,BECKWOURTH,39.883,-120.467,CA Dept of Water Resources/O & M
+HWE,Haiwee,Haiwee Reservoir,Rose Valley,41200,3774' ft,OWENS R,INYO,SOUTH LAHONTAN,OLANCHA,36.137,-117.948,City of Los Angeles; Dept of Water and Power
+HNS,Henshaw,Lake Henshaw,San Luis Rey River,53400,2740' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,SANTA YSABEL,33.24,-116.762,Vista Irrigation District
+HID,Hidden,Hensley Lake,Fresno River,90000,561' ft,FRESNO R,MADERA,SAN JOAQUIN RIVER,RAYMOND,37.2,-119.917,US Army Corps of Engineers
+MEA,Hoover,Lake Mead,Colorado River,26159008,3700' ft,COLORADO R,State of Arizona,COLORADO RIVER,"LAS VEGAS, NV",36.016,-114.736,US Bureau of Reclamation
+HNT,Huntington,Huntington Lake,San Joaquin River,89800,7000' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,LAKESHORE,37.228,-119.221,US Bureau of Reclamation
+ICH,Ice House,Ice House Reservoir,S Fork Silver Creek,45960,5454' ft,AMERICAN R,EL DORADO,SACRAMENTO RIVER,KYBURZ,38.824,-120.359,Sacramento Municipal Utility District
+INP,Independence,Independence Lake,Independence Creek,17295,6921' ft,TRUCKEE R,SIERRA,NORTH LAHONTAN,TRUCKEE,39.452,-120.29,US Geological Survey
+INL,Independence,Independence Lake,Independence Creek,17295,6952' ft,TRUCKEE R,SIERRA,NORTH LAHONTAN,TRUCKEE,39.45,-120.283,Sierra County
+MMW,Indian Ole,Mountain Meadows,N Fork Feather River Tributary,23900,5046' ft,FEATHER R,LASSEN,SACRAMENTO RIVER,WESTWOOD,40.283,-121.017,Pacific Gas & Electric
+INV,Indian Valley,Indian Valley Reservoir,Cache Creek Tributary,301000,1502' ft,CACHE CR,LAKE,SACRAMENTO RIVER,BARKERVILLE,39.083,-122.533,Yolo County Flood Control and Water Consv Dist
+IRC,Iron Canyon,Iron Canyon Reservoir,Pit River Tribuatary,24200,2675' ft,PIT R,SHASTA,SACRAMENTO RIVER,BIG BEND,41.045,-121.981,Pacific Gas & Electric
+ISB,Isabella,Lake Isabella,Kern River,568000,2635' ft,KERN R,KERN,TULARE LAKE,LAKE ISABELLA,35.646,-118.473,US Army Corps of Engineers
+JCK,Jackson Meadows,Jackson Meadows Res,M Fork Yuba River,69200,6037' ft,YUBA R,NEVADA,SACRAMENTO RIVER,SIERRA CITY,39.509,-120.552,Nevada County
+ATN,James H Turner,Lake San Antonio,Salinas River Tributary,330000,779' ft,SALINAS R,MONTEREY,CENTRAL COAST,BRADLEY,35.798,-120.883,Monterey County
+KNT,Kent,Kent Lake,Lagunitas Creek,32900,415' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,FOREST KNOLLS,37.997,-122.702,Marin Municipal Water District
+KRH,Kerckhoff Diversion,Kerckhoff Reservoir,San Joaquin,4247,985' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,FRIANT,37.128,-119.524,US Bureau of Reclamation
+KES,Keswick,Keswick Reservoir,Sacramento River,23800,596' ft,SACRAMENTO R,SHASTA,SACRAMENTO RIVER,REDDING,40.601,-122.443,US Bureau of Reclamation
+LGR,La Grange,,Tuolumne River,500,52' ft,TUOLUMNE R,STANISLAUS,SAN JOAQUIN RIVER,TURLOCK,37.667,-120.462,US Army Corps of Engineers
+LFY,Lafayette,Lafayette,Lafayette Creek,4250,465' ft,SF BAY,CONTRA COSTA,SAN FRANCISCO BAY,ORINDA,37.885,-122.138,East Bay Municipal Utility District
+LGT,Lagunitas,Lagunitas Lake,Lagunitas Creek,350,799' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,PETALUMA,37.947,-122.597,Marin Municipal Water District
+HMT,Lake Hemet,Lake Hemet,San Jacinto River,13500,4202' ft,SAN JACINTO R,RIVERSIDE,SOUTH COAST,PALM SPRINGS,33.666,-116.705,Lake Hemet Muncipal Water District
+HNN,Lake Hennessey,Lake Hennessey,Conn Creek,31000,331' ft,NAPA R,NAPA,SAN FRANCISCO BAY,RUTHERFORD,38.482,-122.372,Napa County
+HDG,Lake Hodges,Lake Hodges,San Dieguito River,30251,315' ft,SAN DIEGUITO R,SAN DIEGO,SOUTH COAST,ESCONDIDO,33.046,-117.128,San Diego County
+LVD,Lake Loveland,Lake Loveland,Sweetwater River,25400,1366' ft,SWEETWATER R,SAN DIEGO,SOUTH COAST,EL CAJON,32.779,-116.792,South Bay Irrigation District
+TAH,Lake Tahoe,Lake Tahoe,Truckee River,732000,6221' ft,TRUCKEE R,PLACER,NORTH LAHONTAN,TAHOE CITY,39.181,-120.118,US Bureau of Reclamation
+LVY,Lake Valley,Lake Valley Reservoir,N Fork American River,8000,5855' ft,AMERICAN R,PLACER,SACRAMENTO RIVER,CISCO GROVE,39.3,-120.583,Pacific Gas & Electric
+LRA,Leroy Anderson,Anderson Lake,Coyote Creek,89100,640' ft,SANTA CLARA VLY,SANTA CLARA,SAN FRANCISCO BAY,MADRONE,37.165,-121.632,Santa Clara Valley Water District
+LEW,Lewiston,Lewiston Lake,Trinity River,14700,1870' ft,TRINITY R,TRINITY,NORTH COAST,LEWISTON,40.727,-122.793,US Bureau of Reclamation
+LNG,Lexington,Los Gatos Creek,Los Gatos Creek,21430,659' ft,SANTA CLARA VLY,SANTA CLARA,SAN FRANCISCO BAY,LOS GATOS,37.202,-121.988,Santa Clara County
+LGV,Little Grass Valley,Little Grass Valley Reservoir,S Fork Feather River,94700,5047' ft,FEATHER R,PLUMAS,SACRAMENTO RIVER,LA PORTE,39.724,-121.019,South Feather Water and Power Agency
+CRW,Long Valley,Lake Crowley,Owens River,183200,6797' ft,OWENS R,MONO,SOUTH LAHONTAN,MAMMOTH LAKES,37.604,-118.707,City of Los Angeles; Dept of Water and Power
+LON,Loon Lake,Loon Lake,Rubicon River Tributary,76500,6410' ft,AMERICAN R,EL DORADO,SACRAMENTO RIVER,MEEKS BAY,38.983,-120.323,Sacramento Municipal Utility District
+LSB,Los Banos,Los Banos Reservoir,Los Banos Creek,34600,120' ft,SAN JOAQUIN FLOOR,MERCED,SAN JOAQUIN RIVER,LOS BANOS,37.05,-120.867,National Weather Service
+LVQ,Los Vaqueros,Los Vaqueros Reservoir,Kellogg Creek,160000,472' ft,KELLOGG CREEK,CONTRA COSTA,SAN FRANCISCO BAY,BYRON,37.838,-121.726,Contra Costa Water District
+LWB,Lower Bear River,Lower Bear Reservoir,Bear River,52025,5824' ft,MOKELUMNE R,AMADOR,SAN JOAQUIN RIVER,JACKSON,38.538,-120.257,Pacific Gas & Electric
+CRY,Lower Crystal Springs,Crystal Springs Reservoir,San Mateo Creek,58400,293' ft,SAN MATEO CREEK,SAN MATEO,SAN FRANCISCO BAY,SAN MATEO,37.53,-122.36,San Francisco County
+HHL,Lower Hell Hole,Hell Hole Reservoir,Rubicon River,207600,4630' ft,AMERICAN R,PLACER,SACRAMENTO RIVER,MEEKS BAY,39.058,-120.407,Placer County Water Agency
+LYS,Lyons,Lyons Reservoir,S Fork Stanislaus River,6219,4134' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,SONORA,38.094,-120.166,Pacific Gas & Electric
+SWB,Main Strawberry,Pinecrest Lake,S Fork Stanislaus,18300,5620' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,PINECREST,38.2,-119.983,Pacific Gas & Electric
+MPL,Mammoth Pool,Mammoth Pool Reservoir,San Joaquin River,122700,3330' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,BIG CREEK,37.329,-119.328,Southern California Edison Company
+EDN,Mark Edson,Stumpy Meadows Lake,Rubicon River,20000,4272' ft,AMERICAN R,EL DORADO,SACRAMENTO RIVER,PLACERVILLE,38.903,-120.603,Georgetown Divide Public Utility District
+MRT,Martis Creek Reservoir,Martis Creek,Martis Creek,20400,5745' ft,TRUCKEE R,NEVADA,NORTH LAHONTAN,TRUCKEE,39.327,-120.113,US Army Corps of Engineers
+MAT,Matilija,Matilija Reservoir,Matilija Creek,750,1138' ft,VENTURA R,VENTURA,SOUTH COAST,MATILIJA HOT SPRINGS,34.486,-119.307,Ventura County Flood Control District
+MHW,Matthews,Lake Matthews,De Luz Creek Tributary,179300,1404' ft,SANTA ANA AB NARROWS,RIVERSIDE,SOUTH COAST,CORONA,33.833,-117.46,Metropolitan Water District
+MCO,McCloud,McCloud Reservoir,McCloud River,35200,2700' ft,MC CLOUD R,SHASTA,SACRAMENTO RIVER,MCCLOUD,41.135,-122.074,Pacific Gas & Electric
+MCS,McSwain,Lake McSwain,Merced River,9730,425' ft,MERCED R,MARIPOSA,SAN JOAQUIN RIVER,MERCED,37.52,-120.309,Merced County
+MMR,Miramar,Miramar,none,7184,720' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,MIRAMAR,32.9,-117.1,San Diego County
+MDO,Modesto Reservoir,,Tuolumne River,29000,210' ft,TUOLUMNE R,STANISLAUS,SAN JOAQUIN RIVER,TURLOCK,37.657,-120.675,Modesto Irrigation District
+BER,Montecello,Lake Berryessa,Putah Creek,1600000,456' ft,PUTAH CR,NAPA,SACRAMENTO RIVER,WINTERS,38.513,-122.104,US Bureau of Reclamation
+MOR,Morena,Morena Lake,Cottonwood Creek,50200,3053' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,CHULA VISTA,32.683,-116.55,San Diego County
+MRR,Murray,Murray Reservoir,Chaparral Canyon,4818,542' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,LA MESA,32.782,-117.047,San Diego County
+NCM,Nacimiento,Lake Nacimiento,Nacimiento River,377900,784' ft,NACIMIENTO R,SAN LUIS OBISPO,CENTRAL COAST,BRADLEY,35.758,-120.884,Monterey County
+NAT,Natoma,Lake Natoma,American River,9000,132' ft,AMERICAN R,SACRAMENTO,SACRAMENTO RIVER,NIMBUS,38.65,-121.183,US Bureau of Reclamation
+BUL,New Bullards Bar,Bullards Bar Reservoir,N Fork Yuba River,966000,1965' ft,YUBA R,YUBA,SACRAMENTO RIVER,DOBBINS,39.393,-121.14,Yuba County Water Agency
+EXC,New Exchequer,Lake McClure,Merced River,1024600,879' ft,MERCED R,MARIPOSA,SAN JOAQUIN RIVER,SNELLING,37.585,-120.27,Merced Irrigation District
+MCR,New Exchequer,Lake McClure,Merced River,1024600,867' ft,MERCED R,MARIPOSA,SAN JOAQUIN RIVER,MERCED,37.584,-120.267,Merced County
+NHG,New Hogan,New Hogan Lake,Calaveras River,317100,554' ft,CALAVERAS R,CALAVERAS,SAN JOAQUIN RIVER,VALLEY SPRINGS,38.152,-120.812,US Army Corps of Engineers
+NML,New Melones,New Melones Reservoir,Stanislaus River,2420000,1135' ft,STANISLAUS R,CALAVERAS,SAN JOAQUIN RIVER,SONORA,37.9481,-120.525,US Bureau of Reclamation
+NCA,Nicasio,Nicasio Reservoir,Nicasio Creek,22400,180' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,POINT REYES STATION,38.075,-122.757,Marin Municipal Water District
+ONF,O Neill Forebay,,San Luis Creek,56400,225' ft,SAN JOAQUIN VLY WEST,MERCED,SAN JOAQUIN RIVER,LOS BANOS,37.067,-121.067,CA Dept of Water Resources
+HTH,O Shanessey,Hetch-Hetchy Reservoir,Tuolumne River,360400,3870' ft,TUOLUMNE R,TUOLUMNE,SAN JOAQUIN RIVER,YOSEMITE,37.95,-119.783,Hetch Hetchy Water and Power
+ORO,Oroville,Lake Oroville,Feather River,3538000,900' ft,FEATHER R,BUTTE,SACRAMENTO RIVER,OROVILLE,39.54,-121.493,CA Dept of Water Resources/O & M
+LOT,Otay,Lower Otay,Otay River,49500,485' ft,OTAY R,SAN DIEGO,SOUTH COAST,CHULA VISTA,32.609,-116.927,City of San Diego
+PAR,Pardee Reservoir,Pardee Res,Mokelumne River,197950,568' ft,MOKELUMNE R,CALAVERAS,SAN JOAQUIN RIVER,VALLEY SPRINGS,38.25,-120.85,East Bay Municipal Utility District
+HVS,Parker Dam,Lake Havasu,Colorado River,619400,451' ft,COLORADO R,SAN BERNARDINO,COLORADO RIVER,NEEDLES,34.317,-114.156,US Bureau of Reclamation
+PRR,Perris,Perris Lake,none,131500,1600' ft,SAN JACINTO R,RIVERSIDE,SOUTH COAST,RIVERSIDE,33.858,-117.183,CA Dept of Water Resources
+SCD,Pillsbury,Lake Pillsbury,Eel River,80500,1807' ft,EEL R,LAKE,NORTH COAST,POTTER VALLEY,39.4083,-122.9586,Pacific Gas & Electric
+PLL,Pillsbury,Lake Pillsbury,Eel River,80500,1807' ft,EEL R,LAKE,NORTH COAST,POTTER VALLEY,39.408,-122.958,Pacific Gas & Electric
+PNF,Pine Flat,Pine Flat Dam,Kings River,1000000,970' ft,KINGS R,FRESNO,TULARE LAKE,FRESNO,36.833,-119.325,US Army Corps of Engineers
+PT6,Pit No. 6,Pit No. 6,Pit River,15900,32' ft,PIT R,SHASTA,SACRAMENTO RIVER,MONTGOMERY CREEK,40.842,-122.001,Pacific Gas & Electric
+PT7,Pit No. 7,Pit No. 7,Pit River,34600,1036' ft,PIT R,SHASTA,SACRAMENTO RIVER,HILLCREST,40.843,-122.015,Pacific Gas & Electric
+BIT,Pit Number 3,Lake Britton,Pit River,40600,2744' ft,PIT R,SHASTA,SACRAMENTO RIVER,BURNEY,41.022,-121.676,Pacific Gas & Electric
+PVP,Potter Valley PH,,EF Russian River,0,1020' ft,RUSSIAN R,MENDOCINO,NORTH COAST,UKIAH,39.367,-123.133,Pacific Gas & Electric
+PRS,Prosser,Prosser Reservoir,Prosser Creek,29800,5622' ft,TRUCKEE R,NEVADA,NORTH LAHONTAN,TRUCKEE,39.3794,-120.1367,US Geological Survey
+PYM,Pyramid,Pyramid Lake,Piru Creek,171200,2606' ft,U SANTA CLARA R,LOS ANGELES,SOUTH COAST,PIRU,34.633,-118.75,CA Dept of Water Resources
+QUL,Quail,Quail Lake,none,5654,ft,MOJAVE DESERT,,SOUTH LAHONTAN,,,,None Specified
+RLC,Railroad Canyon,Railroad Canyon Reservoir,San Jacinto River,11900,1398' ft,SANTA ANA R,RIVERSIDE,SOUTH COAST,LAKE ELSINORE,33.675,-117.272,Elsinore Valley Municipal Water District
+RDN,Redinger,Redinger Lake,San Joaquin River,35000,1403' ft,SAN JOAQUIN R,MADERA,SAN JOAQUIN RIVER,FRIANT,37.145,-119.449,Southern California Edison Company
+RLF,Relief,Relief Reservoir,M Fork Stanislaus River,15600,7220' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,DARDANELLE,38.267,-119.733,Pacific Gas & Electric
+RLL,Rollins,Rollins Reservoir,Bear River,66000,2176' ft,BEAR R,PLACER,SACRAMENTO RIVER,COLFAX,39.135,-120.948,Nevada County
+RTD,Ruth,Ruth Lake,Mad River,61000,2675' ft,MAD R,TRINITY,NORTH COAST,FOREST GLEN,40.367,-123.433,USGS and DWR
+SDB,Saddlebag,Saddlebag Lake,Lee Vining Creek,11100,10090' ft,MONO LAKE,MONO,SOUTH LAHONTAN,LEE VINING,37.966,-119.272,"Southern California Edison Company, Big Creek"
+SLN,Salinas,Santa Margarita Lake,Salinas River,23000,1325' ft,SALINAS R,SAN LUIS OBISPO,CENTRAL COAST,SAN LUIS OBISPO,35.333,-120.502,US Army Corps of Engineers
+SLS,Salt Springs,,N Fork Mokelumne River,141857,3700' ft,MOKELUMNE R,AMADOR,SAN JOAQUIN RIVER,TAMARAK,38.497,-120.216,Pacific Gas & Electric
+SNN,San Andreas,San Andreas Lake,San Mateo Creek Tributary,19000,456' ft,SF BAY,SAN MATEO,SAN FRANCISCO BAY,MILLBRAE,37.578,-122.412,San Francisco County
+SAT,San Antonio,San Antonio Reservoir,Alameda Creek Tributary,50500,468' ft,ALAMEDA CR,ALAMEDA,SAN FRANCISCO BAY,BRADLEY,37.573,-121.848,San Francisco County
+SGB,San Gabriel No. 1,San Gabriel Reservoir,San Gabriel,62000,1481' ft,SAN GABRIEL R,LOS ANGELES,SOUTH COAST,MONROVIA,34.207,-117.858,Los Angeles County
+SNL,San Luis,San Luis Reservoir,San Luis Creek,2039000,543' ft,SAN LUIS CR,MERCED,SAN JOAQUIN RIVER,LOS BANOS,37.033,-121.133,CA Dept of Water Resources
+SLF,San Luis,San Luis Reservoir (CVP),San Luis Creek,971000,543' ft,SAN JOAQUIN VLY WEST,MERCED,SAN JOAQUIN RIVER,LOS BANOS,37.001,-121.002,CA Dept of Water Resources
+LUS,San Luis,San Luis Reservoir (SWP),San Luis Creek,1062000,543' ft,SAN JOAQUIN VLY WEST,MERCED,SAN JOAQUIN RIVER,LOS BANOS,37.001,-121.002,CA Dept of Water Resources
+SPB,San Pablo,San Pablo Reservoir,San Pablo,38600,330' ft,SF BAY,CONTRA COSTA,SAN FRANCISCO BAY,SAN PABLO,37.958,-122.333,East Bay Municipal Utility District
+SVT,San Vicente,San Vicente Reservoir,San Vicente Creek,89312,560' ft,SAN DIEGO R,SAN DIEGO,SOUTH COAST,SANTEE,32.912,-116.924,City of San Diego
+PRU,Santa Felicia,Lake Piru,Piru Creek,83244,213' ft,PIRU CR,VENTURA,SOUTH COAST,PIRU,34.461,-118.751,United Water Conservation District
+SGC,Santiago Creek,,Sangiago Creek,25000,810' ft,SANTA ANA R,ORANGE,SOUTH COAST,ORANGE,33.785,-117.723,Serrano Irrigation Dist and Irvine Ranch Water Dist
+SFL,Scotts Flat,Scotts Flat Reservoir,Deer Creek,48500,3085' ft,YUBA R,NEVADA,SACRAMENTO RIVER,NEVADA CITY,39.274,-120.917,Nevada Irrigation District
+SVO,Seven Oaks,,Santa Ana River,145600,2610' ft,SANTA ANA R,SAN BERNARDINO,SOUTH COAST,REDLANDS,34.1178,-117.0978,"Orange, Riverside and San Bernardino Counties"
+SHA,Shasta,Lake Shasta,Sacramento River,4552100,1067' ft,SACRAMENTO R,SHASTA,SACRAMENTO RIVER,REDDING,40.718,-122.42,US Bureau of Reclamation
+SHV,Shaver,Shaver Lake,San Joaquin River,135400,5370' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,SHAVER LAKE,37.145,-119.302,US Bureau of Reclamation
+SIV,Silver,Silver Lake,Silver Fork American River,8640,7134' ft,AMERICAN R,AMADOR,SACRAMENTO RIVER,KIT CARSON,38.669,-120.121,El Dorado Irrigation District
+SKN,Skinner Clearwell,Skinner Lake,none,44200,1479' ft,SAN DIEGO R,RIVERSIDE,SOUTH COAST,HEMET,33.583,-117.122,Metropolitan Water District
+SLB,Slab Creek,Slab Creek Reservoir,S Fork American River,16600,1850' ft,AMERICAN R,EL DORADO,SACRAMENTO RIVER,PLACERVILLE,38.7725,-120.6994,Sacramento Municipal Utility District
+SLC,Sly Creek,,Lost Creek,65700,3536' ft,FEATHER R,BUTTE,SACRAMENTO RIVER,STRAWBERRY VALLEY,39.584,-121.116,South Feather Water and Power Agency
+JNK,Sly Park,Jenkinson Lake,Cosumnes River,41000,3482' ft,COSUMNES R,EL DORADO,SAN JOAQUIN RIVER,POLLOCK PINES,38.713,-120.56,El Dorado Irrigation District
+SOL,Solano,Lake Solano,Putah Creek,720,150' ft,PUTAH CR,SOLANO,SACRAMENTO RIVER,WINTERS,38.5,-122,Solano County Water Agency
+SLJ,Soulajule,Soulajule,San Francisco Bay,10572,344' ft,COAST-MARIN,MARIN,SAN FRANCISCO BAY,NOVATO,38.153,-122.782,Marin Municipal Water District
+SLK,South Lake,South Lake,Bishop Creek,12900,9600' ft,OWENS R,INYO,SOUTH LAHONTAN,BISHOP,37.176,-118.562,CA Dept of Water Resources/Snow Surveys
+SPG,Spaulding,Spaulding Lake,S Fork Yuba River,75100,5013' ft,YUBA R,NEVADA,SACRAMENTO RIVER,EMIGRANT GAP,39.329,-120.641,Pacific Gas & Electric
+SPM,Spicer Meadows,New Spicer Meadows Reservoir,N Fork Stanislaus River,190000,6516' ft,STANISLAUS R,TUOLUMNE,SAN JOAQUIN RIVER,BEAR VALLEY,38.393,-119.998,Calaveras County
+STP,Stampede,Stampede Lake,Little Truckee River,226500,5956' ft,TRUCKEE R,SIERRA,NORTH LAHONTAN,TRUCKEE,39.471,-120.103,US Geological Survey
+STG,Stony Gorge,Stony Gorge Reservoir,Stony Creek,50000,800' ft,STONY CR,GLENN,SACRAMENTO RIVER,ELK CREEK,39.583,-122.533,US Bureau of Reclamation
+SCC,Success,Lake Success,Tule River,82300,692' ft,TULE R,TULARE,TULARE LAKE,PORTERVILLE,36.061,-118.922,US Army Corps of Engineers
+STD,Sutherland,Sutherland Lake,Santa Ysabel Creek,29684,2074' ft,SAN DIEGUITO R,SAN DIEGO,SOUTH COAST,RAMONA,33.118,-116.787,San Diego County
+SW3,Sweetwater,Sweetwater Reservoir,Sweetwater Creek,27700,252' ft,SWEETWATER R,SAN DIEGO,SOUTH COAST,SAN DIEGO,32.692,-117.007,South Bay Irrigation District
+TRM,Terminus,Lake Kaweah,Kaweah River,185600,752' ft,KAWEAH R,TULARE,TULARE LAKE,VISALIA,36.415,-119.002,US Army Corps of Engineers
+TAB,Thermalito,Thermalito Afterbay,Feather River,54906,140' ft,FEATHER R,BUTTE,SACRAMENTO RIVER,OROVILLE,39.45,-121.633,CA Dept of Water Resources
+TMT,Thermalito,Thermalito System,Feather River,81264,140' ft,FEATHER R,BUTTE,SACRAMENTO RIVER,OROVILLE,39.458,-121.638,CA Dept of Water Resources
+TNM,Tinemaha,Tinemaha Reservoir,Owens River,16300,3882' ft,OWENS R,INYO,SOUTH LAHONTAN,POVERTY HILLS,37.058,-118.225,City of Los Angeles; Dept of Water and Power
+CLE,Trinity,Trinity Lake,Trinity River,2447700,2370' ft,TRINITY R,TRINITY,NORTH COAST,LEWISTON,40.801,-122.762,US Bureau of Reclamation
+TUL,Tulloch,Tulloch Reservoir,Stanislaus River,67000,515' ft,STANISLAUS R,CALAVERAS,SAN JOAQUIN RIVER,SONORA,37.875,-120.603,US Bureau of Reclamation
+TLC,Turlock,Turlock Lake,Tuolumne River,49000,244' ft,TUOLUMNE R,STANISLAUS,SAN JOAQUIN RIVER,TURLOCK,37.6,-120.583,Turlock Irrigation District
+TWT,Twitchell,Twitchell Reservoir,Cuyama River,257100,692' ft,SANTA MARIA R,SAN LUIS OBISPO,CENTRAL COAST,SANTA MARIA,34.983,-120.317,US Bureau of Reclamation
+UNV,Union Valley,Union Valley Reservoir,S Fork American River,277300,4870' ft,AMERICAN R,EL DORADO,SACRAMENTO RIVER,RIVERTON,38.864,-120.438,Sacramento Municipal Utility District
+KLM,Upper Klamath,Upper Klamath,Klamath River,486830,4097' ft,KLAMATH R,SISKIYOU,NORTH COAST,KLAMATH FALLS,42.25,-121.815,US Bureau of Reclamation
+SJT,Upper San Joaquin R Total,,San Joaquin River,617300,ft,SAN JOAQUIN R,,SAN JOAQUIN RIVER,,,,None Specified
+USL,Upper San Leandro,U San Leandro R,Alameda Creek,37960,477' ft,ALAMEDA CR,ALAMEDA,SAN FRANCISCO BAY,OAKLAND,37.778,-122.122,East Bay Municipal Utility District
+VIL,Vail,Vail Reservoir,Temecula Creek,50000,1470' ft,SANTA MARGARITA R,RIVERSIDE,SOUTH COAST,TEMECULA,33.496,-116.976,Rancho Calif Water District
+TAE,Vermilion Valley,Thomas A. Edison,S Fork San Joaquin River,125000,7642' ft,SAN JOAQUIN R,FRESNO,SAN JOAQUIN RIVER,BIG CREEK,37.37,-118.987,"Southern California Edison Company, Big Creek"
+VLP,Villa Park,Villa Park Reservoir,Santiago Creek,16000,584' ft,SANTA ANA R,ORANGE,SOUTH COAST,ORANGE,33.815,-117.832,Orange County
+WRS,Warm Springs,Warm Springs Reservoir,Russian River,381000,440' ft,RUSSIAN R,SONOMA,NORTH COAST,GEYSERVILLE,38.723,-123.01,US Army Corps of Engineers
+WHR,Whale Rock,Whale Rock Lake,Old Creek,40700,233' ft,SALINAS R,SAN LUIS OBISPO,CENTRAL COAST,CAYUCOS,35.45,-120.883,San Luis Obispo County
+WHI,Whiskeytown,Whiskeytown Lake,Clear Creek,241100,1210' ft,SACRAMENTO R,SHASTA,SACRAMENTO RIVER,REDDING,40.598,-122.537,US Bureau of Reclamation
+WSN,Wishon,Lake Wishon,Helms Creek,128300,6560' ft,KINGS R,FRESNO,TULARE LAKE,PIEDRA,37.005,-118.969,Pacific Gas & Electric

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100|Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.csv-table {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.csv-table canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.csv-table:active .tooltip {
+  position: absolute;
+  background-color: #333;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+}
+.csv-table .frontCanvas {
+  opacity: 0;
+  transition: .25s all;
+  pointer-events: none;
+}
+.csv-table:active .frontCanvas{
+  opacity: 1;
+}
+.splash {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: #f3f3f3;
+  z-index: 10;
+  transition: .25s opacity;
+}
+.splash .widget {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+.splash .widget .inside {
+  position: absolute;
+  left: -400px;
+  top: -150px;
+  width: 800px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  color: black;
+}
+.splash .widget .inside textarea {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 0;
+  height: 150px;
+  color: black;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2) inset;
+}
+*::-moz-placeholder {
+  color: #666;
+}
+*::-webkit-input-placeholder {
+  color: #666;
+}
+button {
+  border-radius: 5px;
+  border: #777;
+  background-color: #444;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body ng-app="myApp" ng-controller="MainCtrl">
+    <div csv-table class="csv-table"></div>
+    <div class="splash" ng-style="{'opacity': (!csvRows && !loading) ? 1 : 0,
+      'pointer-events': (!csvRows && !loading) ? 'all' : 'none' }">
+      <div class="widget">
+        <div class="inside">
+          <h1 style="margin-left: 10px;float:left"> CSV fingerprint </h1>
+          <p style="float:right;margin-right: 10px">
+            Here are a few examples:
+            <a href="#" ng-click="loadExample('example1.csv')"> example1.csv </a>
+            <span>&nbsp;</span>
+            <a href="#" ng-click="loadExample('example2.csv')"> example2.csv </a>
+          </p>
+          <div style="margin:10px">
+            <textarea ng-model="csvText" placeholder="copy and paste your CSV here."></textarea>
+            <button ng-click="loadText()"> generate </button>
+            <p style="float: right">
+              built with love by <a href="http://setosa.io">setosa</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="d3.js" charset="utf-8"></script>
+  <script src="fisheye.js" charset="utf-8"></script>
+  <script src="angular.js" charset="utf-8"></script>
+  <script>
+
+var myApp = angular.module('myApp', [])
+
+myApp.controller('MainCtrl', function($scope, $window) {
+  angular.element($window).on('resize', function() { $scope.$apply() })
+  $scope.loading = false
+  $scope.loadExample = function(file) {
+    $scope.loading = true
+    d3.text(file, function(err, text) {
+      $scope.$apply(function() {
+        $scope.loading = false
+        if(err) throw err
+        loadText(text)
+      })
+    })
+  }
+  var file = window.location.hash.slice(1)
+  if(file) $scope.loadExample(file)
+  var loadText = $scope.loadText = function(text) {
+    if(!text) text = $scope.csvText
+    var rows = d3.csv.parseRows(text)
+    $scope.csvRows = rows
+  }
+})
+myApp.directive('csvTable', function() {
+  function link(scope, el, attr) {
+    var w, h
+    var sel = d3.select(el[0])
+    var canvasBack = sel.append('canvas').attr('class', 'backCanvas')
+    var canvasFront = sel.append('canvas').attr('class', 'frontCanvas')
+    var tooltip = sel.append('div').attr('class', 'tooltip')
+    var ctxBack = canvasBack.node().getContext('2d')
+    var ctxFront = canvasFront.node().getContext('2d')
+    var rows
+    var rects = []
+    var rowHeight
+    var columnWidth
+    var mouse = [0, 0]
+    var columns
+    var radius = 100
+    var selectedRects = []
+    var colors = {
+      empty: '#34495e',
+      nan: '#f1c40f',
+      decimal: '#9b59b6',
+      integer: '#3498db'
+    }
+    tooltip.append('span').attr('class', 'value')
+    var circular = d3.fisheye.circular().radius(radius).distortion(100)
+    scope.$watch(function() {
+      return w = el[0].clientWidth, h = el[0].clientHeight, w + h
+    }, function() {
+      sel.selectAll('canvas').attr({width: w, height: h})
+      redrawAll()
+    })
+    scope.$watch('csvRows', function(csvRows) {
+      var rows = scope.csvRows
+      if(!rows || !rows.length) return
+      columns = Object.keys(rows[0])
+      rects = []
+      rows.forEach(function(row, i) {
+        columns.forEach(function(c, j) {
+          // calculate the position of this rect within an outer "unit" 1x1
+          // rect.
+          var x1 = j / columns.length
+          var y1 = i / rows.length
+          var x3 = (j + 1) / columns.length
+          var y3 = (i + 1) / rows.length
+          var rect = {
+            x1: x1,
+            y1: y1,
+            x2: (j + 1) / columns.length,
+            y2: i / rows.length,
+            x3: x3,
+            y3: y3,
+            x4: j / columns.length,
+            y4: (i + 1) / rows.length,
+            c: { x: (x1 + x3) / 2, y: (y1 + y3) / 2 },
+            type: null,
+            d: row[c] // the cell data
+          }
+          var d = row[c]
+          if(d === '') rect.type = colors.empty
+          else if(isNaN(+d)) rect.type = colors.nan
+          else if(d.indexOf('.') !== -1) rect.type = colors.decimal
+          else rect.type = colors.integer
+          rects.push(rect)
+        })
+      })
+     redrawAll()
+    })
+    function redrawAll() {
+      rowHeight = rows && rows.length ? h / rows.length : h
+      columnWidth = columns && columns.length ? w / columns.length : w
+      updateDToMouse()
+      redrawBack()
+      redrawFront()
+    }
+    sel.call(d3.behavior.drag().on('drag', function() {
+      mouse = [ d3.event.x, d3.event.y ]
+      if(mouse[0] < 0) mouse[0] = 0
+      else if(mouse[0] > w) mouse[0] = w
+      if(mouse[1] < 0) mouse[1] = 0
+      else if(mouse[1] > h) mouse[1] = h
+      updateDToMouse()
+      circular.focus(mouse)
+      selectedRects = rects.filter(function(r) { return r.dToMouse < radius })
+        .sort(function(a, b) { return a.z - b.z })
+      selectedRects.forEach(function(r) {
+        r.p1 = circular({ x: r.x1 * w, y: r.y1 * h })
+        r.p2 = circular({ x: r.x2 * w , y: r.y2 * h })
+        r.p3 = circular({ x: r.x3 * w, y: r.y3 * h })
+        r.p4 = circular({ x: r.x4 * w , y: r.y4 * h })
+        var c = circular({ x: r.c.x * w, y: r.c.y * h })
+        r.z = c.z
+        var x = c.x - mouse[0], y = c.y - mouse[1]
+        return r.dDistorted = Math.sqrt(x * x + y * y)
+      })
+      var closestDistorted = selectedRects.slice().sort(function(a, b) {
+        return a.dDistorted - b.dDistorted })[0]
+      if(!closestDistorted) closestDistorted = rects.slice().sort(function(a,b) {
+        return a.dToMouse - b.dToMouse })[0]
+      redrawFront()
+      tooltip.style({left: mouse[0] + 10 + 'px', top: mouse[1] + 10 + 'px' })
+        .select('.value').text((closestDistorted.d))
+    }))
+    function redrawBack() {
+      ctxBack.clearRect(0, 0, w, h)
+      rects.forEach(function(r, i){
+        ctxBack.beginPath()
+        ctxBack.fillStyle = r.type
+        var p1 = { x: r.x1 * w, y: r.y1 * h }
+        var p3 = { x: r.x3 * w , y: r.y3 * h }
+        ctxBack.rect(~~p1.x, ~~p1.y, ~~(p3.x - p1.x) + 1, ~~(p3.y - p1.y) + 1)
+        ctxBack.fill()
+      })
+    }
+    function redrawFront() {
+      ctxFront.clearRect(0, 0, w, h)
+      selectedRects.forEach(function(r, i) {
+        ctxFront.beginPath()
+        ctxFront.fillStyle = r.type
+        ctxFront.strokeStyle = 'rgba(0, 0, 0, ' + (r.z / 25) + ')'
+        ctxFront.moveTo(~~r.p1.x, ~~r.p1.y)
+        ctxFront.lineTo(~~r.p2.x, ~~r.p2.y)
+        ctxFront.lineTo(~~r.p3.x, ~~r.p3.y + 1)
+        ctxFront.lineTo(~~r.p4.x, ~~r.p4.y + 1)
+        ctxFront.fill()
+        ctxFront.stroke()
+      })
+    }
+    function updateDToMouse() {
+      rects.forEach(function(r, i) {
+        var x = r.c.x * w - mouse[0]
+        var y = r.c.y * h - mouse[1]
+        r.dToMouse = Math.sqrt( x * x + y * y)
+      })
+    }
+  }
+  return {
+    link: link
+  }
+})
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11200159-16', 'setosa.io');
+  ga('send', 'pageview');
+</script>
+</html>
