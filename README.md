@@ -9,7 +9,7 @@ decimals and gray for empty values.
 
 First, clone the repo using git.
 
-    git clone git://github.com/vicapow/csv-fingerprint
+    git clone git://github.com/setosa/csv-fingerprint
 
 
 Next, from the terminal, run the following command from within the project
